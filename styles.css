@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #fef5ed 0%, #fce8d8 100%);
+    font-family: 'Georgia', 'Garamond', serif;
+    color: #2c2c2c;
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    margin-bottom: 40px;
+    color: #1a1a1a;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    max-width: 700px;
+}
+
+.intro p a {
+    color: #8B3A3A;
+    text-decoration: none;
+    border-bottom: 1px solid #8B3A3A;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.intro p a:hover {
+    color: #6B2A2A;
+    border-bottom-color: #6B2A2A;
+}
+
+.find-me {
+    font-size: 1rem;
+}
+
+.find-me a {
+    color: #8B3A3A;
+    text-decoration: none;
+    border-bottom: 1px solid #8B3A3A;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.find-me a:hover {
+    color: #6B2A2A;
+    border-bottom-color: #6B2A2A;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #d4c5b0;
+    margin: 50px 0;
+}
+
+.links-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px;
+}
+
+.column h2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: #1a1a1a;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.column-description {
+    font-size: 0.95rem;
+    color: #5a5a5a;
+    margin-bottom: 20px;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+.column ul {
+    list-style: none;
+}
+
+.column ul li {
+    margin-bottom: 12px;
+}
+
+.column ul li a {
+    color: #4a4a4a;
+    text-decoration: none;
+    font-size: 1rem;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.column ul li a:hover {
+    color: #000;
+    border-bottom-color: #000;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 20px 15px;
+    }
+
+    .container {
+        padding: 30px 20px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+        letter-spacing: 0.1em;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    hr {
+        margin: 30px 0;
+    }
+
+    .links-section {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .column h2 {
+        font-size: 1.1rem;
+    }
+
+    .column-description {
+        font-size: 0.9rem;
+    }
+
+    .column ul li a {
+        font-size: 0.95rem;
+    }
+}
