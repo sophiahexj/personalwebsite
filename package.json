@@ -1,0 +1,11 @@
+{
+  "name": "hesophia-website",
+  "version": "1.0.0",
+  "description": "Personal website for Sophia He",
+  "scripts": {
+    "build": "echo 'No build needed for static site'"
+  },
+  "keywords": [],
+  "author": "Sophia He",
+  "license": "MIT"
+}
