@@ -103,7 +103,7 @@ hr {
 }
 
 .column ul li a {
-    color: #4a4a4a;
+    color: #8B3A3A;
     text-decoration: none;
     font-size: 1rem;
     border-bottom: 1px solid transparent;
@@ -111,8 +111,8 @@ hr {
 }
 
 .column ul li a:hover {
-    color: #000;
-    border-bottom-color: #000;
+    color: #6B2A2A;
+    border-bottom-color: #6B2A2A;
 }
 
 @media (max-width: 768px) {
